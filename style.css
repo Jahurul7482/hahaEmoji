@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+body{
+    background-color: #ddd;
+}
+.container{
+    background-color: #aaa;
+    width: 80vh;
+    height: 80vh;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    border-radius: 50%;
+    box-shadow: inset rgba(255, 255, 255, 0.671) -10px -10px 10px 10px;
+}
+.circle{
+    background-color: goldenrod;
+    height: 60vh;
+    width: 60vh;
+    margin: auto;
+    position: absolute;
+    top: 10vh;
+    left: 10vh;
+    border-radius: 50%;
+}
+.asset-1{
+    background-color: transparent;
+    width: 15vh;
+    height: 11vh;
+    transform: skew(25deg)rotate(-20deg);
+    border: 2vh solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    position: absolute;
+    top: 13vh;
+    left: 4vh;
+}
+.asset-2{
+    background-color: transparent;
+    width: 15vh;
+    height: 11vh;
+    transform: skew(20deg)rotate(-40deg);
+    border: 2vh solid rgb(0, 0, 0);
+    border-bottom: none;
+    border-right: none;
+    position: absolute;
+    top: 15vh;
+    right: 4vh;
+}
+.asset-3{
+    background-color: rgb(114, 114, 103);
+    width: 40vh;
+    height: 19vh;
+    position: absolute;
+    top: 34vh;
+    left: 10vh;
+    border-radius: 0 0 100vh 100vh;
+}
+.asset-4{
+    background-color: #ffc0c0;
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    top: 37vh;
+    left: 20vh;
+    border-radius: 100% 0%;
+    transform: rotate(45deg);
+}
